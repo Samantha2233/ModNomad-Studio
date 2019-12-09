@@ -1,10 +1,16 @@
 import React from 'react';
 import './HomePage.scss';
 
+import Landing from '../../components/Landing/Landing';
+import LandingStatement from '../../components/LandingStatement/LandingStatement';
+import LandingSpaces from '../../components/LandingSpaces/LandingSpaces';
+
 const HomePage = () => {
   return (
     <div>
-      <h1>HomePage</h1>
+      <Landing />
+      <LandingStatement />
+      <LandingSpaces />
     </div>
   )
 }
