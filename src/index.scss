@@ -1,0 +1,29 @@
+:root {
+  --green: #94821B;
+}
+
+body {
+  margin: 0;
+}
+
+@font-face {
+  font-family: 'Traveling_Typewriter';
+  src: local('Traveling_Typewriter'), url(./fonts//TravelingTypewriter.ttf) format('truetype');
+}
+
+h2 {
+  font-family: Traveling_Typewriter;
+  font-size: 28px;
+  color: var(--green);
+  font-weight: 100;
+}
+
+p {
+  font-family: futura;
+  font-weight: 100;
+  line-height: 1.4rem;
+}
+
+.full-width-image {
+  width: 100%;
+}

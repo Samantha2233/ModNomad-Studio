@@ -1,7 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { BrowserRouter } from 'react-router-dom';
-import './index.css';
+import './index.scss';
 import App from './App';
+
+import './fonts/TravelingTypewriter.otf';
+import './fonts/TravelingTypewriter.ttf';
 
 ReactDOM.render(<BrowserRouter><App /></BrowserRouter>, document.getElementById('root'));

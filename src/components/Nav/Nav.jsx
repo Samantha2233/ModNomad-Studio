@@ -1,13 +1,14 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
-import './Nav';
+import './Nav.scss';
 
 const Nav = () => {
   return (
-    <div>
-      <NavLink to='/social-practice'>Social Practice</NavLink>
-      <NavLink to='/spaces'>Spaces</NavLink>
-      <NavLink to='/editorial'>Editorial</NavLink>
+    <div id='nav'>
+      <img id='logo' src='../../../images/pseudo-logo.png' alt='logo' />
+      <NavLink className='nav-item' to='/social-practice'>Social Practice</NavLink>
+      <NavLink className='nav-item' to='/spaces'>Spaces</NavLink>
+      <NavLink className='nav-item' to='/editorial'>Editorial</NavLink>
     </div>
   )
 }
